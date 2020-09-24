@@ -118,22 +118,18 @@ margin-right: 25px;
     margin-bottom: 230px;
 }
 
-.icons {
-    display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
-
-.button:hover {transition-duration: 0.4s;
+.button:hover {transition: color 0.3s ease-out; 
     background-color: #4CAF50; /* Green */
     color: white; }
 
 a {
     color:#253050 ;
     font-weight: bold;
-    transition: 0.4s;
+    transition: color 0.3s ease-out;
+
 }
+
 
 
 p {
@@ -308,5 +304,42 @@ flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-height: 1141px;
+height: 500px;
 }
+
+.design {background-color: rgba(173, 216, 230, 0.400);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+.footer-width { background-color: red;
+    width: 100%;
+    height: fit-content;
+    
+    
+}
+
+.footer-container {display: flex;
+justify-content: space-around;
+align-items: flex-end;
+max-width: 200px;
+height: 48.5vh;
+}
+
+.gallery-container {display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    max-width: 200px;
+    height: fit-content}
+
+    .about-container {display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        max-width: 200px;
+        height: fit-content}
+
+        .contact-container {display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            max-width: 200px;
+            height: 21vh}
